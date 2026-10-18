@@ -1,0 +1,392 @@
+{
+  "resources": [
+    "ddz_voice_audio_sprite.mp3"
+  ],
+  "spritemap": {
+    "Man_1": {
+      "start": 0,
+      "end": 342,
+      "loop": false
+    },
+    "Man_2": {
+      "start": 442,
+      "end": 878,
+      "loop": false
+    },
+    "Man_3": {
+      "start": 978,
+      "end": 1320,
+      "loop": false
+    },
+    "Man_4": {
+      "start": 1420,
+      "end": 1722,
+      "loop": false
+    },
+    "Man_10": {
+      "start": 1822,
+      "end": 2153,
+      "loop": false
+    },
+    "Man_11": {
+      "start": 2253,
+      "end": 2601,
+      "loop": false
+    },
+    "Man_12": {
+      "start": 2701,
+      "end": 3230,
+      "loop": false
+    },
+    "Man_13": {
+      "start": 3330,
+      "end": 3701,
+      "loop": false
+    },
+    "Man_14": {
+      "start": 3801,
+      "end": 4515,
+      "loop": false
+    },
+    "Man_15": {
+      "start": 4615,
+      "end": 5260,
+      "loop": false
+    },
+    "Woman_1": {
+      "start": 5360,
+      "end": 5888,
+      "loop": false
+    },
+    "Woman_2": {
+      "start": 5988,
+      "end": 6516,
+      "loop": false
+    },
+    "Woman_3": {
+      "start": 6616,
+      "end": 7226,
+      "loop": false
+    },
+    "Woman_4": {
+      "start": 7326,
+      "end": 7935,
+      "loop": false
+    },
+    "Woman_5": {
+      "start": 8035,
+      "end": 8726,
+      "loop": false
+    },
+    "Woman_6": {
+      "start": 8826,
+      "end": 9250,
+      "loop": false
+    },
+    "Woman_7": {
+      "start": 9350,
+      "end": 9936,
+      "loop": false
+    },
+    "Woman_8": {
+      "start": 10036,
+      "end": 10495,
+      "loop": false
+    },
+    "Woman_9": {
+      "start": 10595,
+      "end": 11309,
+      "loop": false
+    },
+    "Woman_10": {
+      "start": 11409,
+      "end": 12006,
+      "loop": false
+    },
+    "Woman_11": {
+      "start": 12106,
+      "end": 12612,
+      "loop": false
+    },
+    "Woman_12": {
+      "start": 12712,
+      "end": 13275,
+      "loop": false
+    },
+    "Woman_13": {
+      "start": 13375,
+      "end": 13845,
+      "loop": false
+    },
+    "Woman_14": {
+      "start": 13945,
+      "end": 14752,
+      "loop": false
+    },
+    "Woman_15": {
+      "start": 14852,
+      "end": 15624,
+      "loop": false
+    },
+    "Woman_baojing1": {
+      "start": 15724,
+      "end": 17024,
+      "loop": false
+    },
+    "Woman_baojing2": {
+      "start": 17124,
+      "end": 19754,
+      "loop": false
+    },
+    "Woman_bujiabei": {
+      "start": 19854,
+      "end": 20765,
+      "loop": false
+    },
+    "Woman_buyao1": {
+      "start": 20865,
+      "end": 21562,
+      "loop": false
+    },
+    "Woman_buyao2": {
+      "start": 21662,
+      "end": 22074,
+      "loop": false
+    },
+    "Woman_buyao3": {
+      "start": 22174,
+      "end": 22714,
+      "loop": false
+    },
+    "Woman_buyao4": {
+      "start": 22814,
+      "end": 23992,
+      "loop": false
+    },
+    "Woman_dani1": {
+      "start": 24092,
+      "end": 24934,
+      "loop": false
+    },
+    "Woman_dani2": {
+      "start": 25034,
+      "end": 25864,
+      "loop": false
+    },
+    "Woman_dani3": {
+      "start": 25964,
+      "end": 27084,
+      "loop": false
+    },
+    "Woman_dui1": {
+      "start": 27184,
+      "end": 27829,
+      "loop": false
+    },
+    "Woman_dui2": {
+      "start": 27929,
+      "end": 28608,
+      "loop": false
+    },
+    "Woman_dui3": {
+      "start": 28708,
+      "end": 29375,
+      "loop": false
+    },
+    "Woman_dui4": {
+      "start": 29475,
+      "end": 30242,
+      "loop": false
+    },
+    "Woman_dui5": {
+      "start": 30342,
+      "end": 31009,
+      "loop": false
+    },
+    "Woman_dui6": {
+      "start": 31109,
+      "end": 31765,
+      "loop": false
+    },
+    "Woman_dui7": {
+      "start": 31865,
+      "end": 32510,
+      "loop": false
+    },
+    "Woman_dui8": {
+      "start": 32610,
+      "end": 33289,
+      "loop": false
+    },
+    "Woman_dui9": {
+      "start": 33389,
+      "end": 34265,
+      "loop": false
+    },
+    "Woman_dui10": {
+      "start": 34365,
+      "end": 35126,
+      "loop": false
+    },
+    "Woman_dui11": {
+      "start": 35226,
+      "end": 35835,
+      "loop": false
+    },
+    "Woman_dui12": {
+      "start": 35935,
+      "end": 36545,
+      "loop": false
+    },
+    "Woman_dui13": {
+      "start": 36645,
+      "end": 37138,
+      "loop": false
+    },
+    "Woman_feiji": {
+      "start": 37238,
+      "end": 38196,
+      "loop": false
+    },
+    "Woman_jiabei": {
+      "start": 38296,
+      "end": 39091,
+      "loop": false
+    },
+    "Woman_liandui": {
+      "start": 39191,
+      "end": 39778,
+      "loop": false
+    },
+    "Woman_NoOrder": {
+      "start": 39878,
+      "end": 40818,
+      "loop": false
+    },
+    "Woman_NoRob": {
+      "start": 40918,
+      "end": 41667,
+      "loop": false
+    },
+    "Woman_Order": {
+      "start": 41767,
+      "end": 42707,
+      "loop": false
+    },
+    "Woman_Rob1": {
+      "start": 42807,
+      "end": 43748,
+      "loop": false
+    },
+    "Woman_Rob2": {
+      "start": 43848,
+      "end": 45154,
+      "loop": false
+    },
+    "Woman_Rob3": {
+      "start": 45254,
+      "end": 46055,
+      "loop": false
+    },
+    "Woman_sandaiyi": {
+      "start": 46155,
+      "end": 47020,
+      "loop": false
+    },
+    "Woman_sandaiyidui": {
+      "start": 47120,
+      "end": 48269,
+      "loop": false
+    },
+    "Woman_shunzi": {
+      "start": 48369,
+      "end": 49281,
+      "loop": false
+    },
+    "Woman_sidaier": {
+      "start": 49381,
+      "end": 50054,
+      "loop": false
+    },
+    "Woman_sidailiangdui": {
+      "start": 50154,
+      "end": 51449,
+      "loop": false
+    },
+    "Woman_tuple1": {
+      "start": 51549,
+      "end": 52506,
+      "loop": false
+    },
+    "Woman_tuple2": {
+      "start": 52606,
+      "end": 53541,
+      "loop": false
+    },
+    "Woman_tuple3": {
+      "start": 53641,
+      "end": 54634,
+      "loop": false
+    },
+    "Woman_tuple4": {
+      "start": 54734,
+      "end": 55726,
+      "loop": false
+    },
+    "Woman_tuple5": {
+      "start": 55826,
+      "end": 56889,
+      "loop": false
+    },
+    "Woman_tuple6": {
+      "start": 56989,
+      "end": 57865,
+      "loop": false
+    },
+    "Woman_tuple7": {
+      "start": 57965,
+      "end": 58946,
+      "loop": false
+    },
+    "Woman_tuple8": {
+      "start": 59046,
+      "end": 60016,
+      "loop": false
+    },
+    "Woman_tuple9": {
+      "start": 60116,
+      "end": 61085,
+      "loop": false
+    },
+    "Woman_tuple10": {
+      "start": 61185,
+      "end": 62201,
+      "loop": false
+    },
+    "Woman_tuple11": {
+      "start": 62301,
+      "end": 63247,
+      "loop": false
+    },
+    "Woman_tuple12": {
+      "start": 63347,
+      "end": 64293,
+      "loop": false
+    },
+    "Woman_tuple13": {
+      "start": 64393,
+      "end": 65293,
+      "loop": false
+    },
+    "Woman_wangzha": {
+      "start": 65393,
+      "end": 66281,
+      "loop": false
+    },
+    "Woman_zhadan": {
+      "start": 66381,
+      "end": 66944,
+      "loop": false
+    }
+  }
+}

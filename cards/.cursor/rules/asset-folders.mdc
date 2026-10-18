@@ -1,0 +1,47 @@
+---
+description: public/assets 与 src/assets/images 放什么素材
+alwaysApply: true
+---
+
+# 素材目录（两套，不要混放）
+
+判断口诀：**运行时按 URL 加载 → `public/assets/`；Vue `import` 进打包 → `src/assets/images/`。**
+
+同一文件名两边都有时，**以 public 为准**。Pixi / `assetUrl` / `fetch` 读不到 `src/assets`。
+
+## `public/assets/`（本地 = CDN 镜像）
+
+给 `assetUrl('…')`、`Assets.load`、Howler、`fetch`。浏览器地址是 `/assets/…`。
+
+| 放这里 | 相对路径示例 |
+|---|---|
+| 牌背、发牌用独立 PNG | `images/common/card_back.png` |
+| 扑克手牌 | `images/card/card.json` + `card.png`（帧名=协议码） |
+| 斗地主特效 | `images/ddz/`：`bomb` 普通炸弹，`wang_bomb` 王炸，另有 plane/spring/liandui/shunzi |
+| 音效 / 语音 | `audio/ddz-sfx/`、`audio/common-sfx/` |
+| 大厅/创房整页背景 | `images/…/hall.png` 等（`assetUrl` 拉的） |
+
+```ts
+// ✅ Pixi / 发牌
+await Assets.load(assetUrl('images/common/card_back.png'))
+```
+
+## `src/assets/images/`（Vite 打包）
+
+只给 Vue DOM：`import img from '@/assets/images/…'` 后 `<img :src="img">`。
+
+| 放这里 | 示例 |
+|---|---|
+| HUD / 按钮 / 提示条 / 闹钟 | `common/hub/`、`common/button/`、`common/tip/` |
+| 默认头、豆子、聊天入口 | `common/head/`、`common/douzi.png` |
+
+```ts
+// ✅ Vue 壳
+import btnStart from '@/assets/images/common/button/start.png'
+```
+
+## 禁止
+
+- 只把图丢进 `src/assets`，却用 `/assets/images/…` 或 `assetUrl` 去加载（发牌曾读到 public 里一张方片 9）。
+- 手牌散图、`Texture.from('本地单图')`。
+- 从旧项目 `game` 批量拷 PNG/MP3。

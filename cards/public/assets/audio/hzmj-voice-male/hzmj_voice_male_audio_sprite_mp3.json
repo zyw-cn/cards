@@ -1,0 +1,212 @@
+{
+  "resources": [
+    "hzmj_voice_male_audio_sprite_mp3.mp3"
+  ],
+  "spritemap": {
+    "sound_man_1": {
+      "start": 0,
+      "end": 1019,
+      "loop": false
+    },
+    "sound_man_2": {
+      "start": 1119,
+      "end": 2190,
+      "loop": false
+    },
+    "sound_man_3": {
+      "start": 2290,
+      "end": 3439,
+      "loop": false
+    },
+    "sound_man_4": {
+      "start": 3539,
+      "end": 4793,
+      "loop": false
+    },
+    "sound_man_5": {
+      "start": 4893,
+      "end": 5990,
+      "loop": false
+    },
+    "sound_man_6": {
+      "start": 6090,
+      "end": 7213,
+      "loop": false
+    },
+    "sound_man_7": {
+      "start": 7313,
+      "end": 8646,
+      "loop": false
+    },
+    "sound_man_8": {
+      "start": 8746,
+      "end": 9817,
+      "loop": false
+    },
+    "sound_man_9": {
+      "start": 9917,
+      "end": 11014,
+      "loop": false
+    },
+    "sound_man_31": {
+      "start": 11114,
+      "end": 12342,
+      "loop": false
+    },
+    "sound_man_32": {
+      "start": 12442,
+      "end": 13617,
+      "loop": false
+    },
+    "sound_man_33": {
+      "start": 13717,
+      "end": 15049,
+      "loop": false
+    },
+    "sound_man_34": {
+      "start": 15149,
+      "end": 16377,
+      "loop": false
+    },
+    "sound_man_35": {
+      "start": 16477,
+      "end": 17679,
+      "loop": false
+    },
+    "sound_man_36": {
+      "start": 17779,
+      "end": 19163,
+      "loop": false
+    },
+    "sound_man_37": {
+      "start": 19263,
+      "end": 20700,
+      "loop": false
+    },
+    "sound_man_38": {
+      "start": 20800,
+      "end": 22054,
+      "loop": false
+    },
+    "sound_man_39": {
+      "start": 22154,
+      "end": 23329,
+      "loop": false
+    },
+    "sound_man_51": {
+      "start": 23429,
+      "end": 24605,
+      "loop": false
+    },
+    "sound_man_52": {
+      "start": 24705,
+      "end": 25750,
+      "loop": false
+    },
+    "sound_man_53": {
+      "start": 25850,
+      "end": 26973,
+      "loop": false
+    },
+    "sound_man_54": {
+      "start": 27073,
+      "end": 28196,
+      "loop": false
+    },
+    "sound_man_55": {
+      "start": 28296,
+      "end": 29446,
+      "loop": false
+    },
+    "sound_man_56": {
+      "start": 29546,
+      "end": 30669,
+      "loop": false
+    },
+    "sound_man_57": {
+      "start": 30769,
+      "end": 31997,
+      "loop": false
+    },
+    "sound_man_58": {
+      "start": 32097,
+      "end": 33220,
+      "loop": false
+    },
+    "sound_man_59": {
+      "start": 33320,
+      "end": 34522,
+      "loop": false
+    },
+    "sound_man_71": {
+      "start": 34622,
+      "end": 35719,
+      "loop": false
+    },
+    "sound_man_72": {
+      "start": 35819,
+      "end": 37151,
+      "loop": false
+    },
+    "sound_man_73": {
+      "start": 37251,
+      "end": 38453,
+      "loop": false
+    },
+    "sound_man_74": {
+      "start": 38553,
+      "end": 39754,
+      "loop": false
+    },
+    "sound_man_75": {
+      "start": 39854,
+      "end": 41082,
+      "loop": false
+    },
+    "sound_man_76": {
+      "start": 41182,
+      "end": 42436,
+      "loop": false
+    },
+    "sound_man_77": {
+      "start": 42536,
+      "end": 43738,
+      "loop": false
+    },
+    "sound_man_buhua": {
+      "start": 43838,
+      "end": 44752,
+      "loop": false
+    },
+    "sound_man_chow": {
+      "start": 44852,
+      "end": 45897,
+      "loop": false
+    },
+    "sound_man_draw_win": {
+      "start": 45997,
+      "end": 46934,
+      "loop": false
+    },
+    "sound_man_kong": {
+      "start": 47034,
+      "end": 48053,
+      "loop": false
+    },
+    "sound_man_pong": {
+      "start": 48153,
+      "end": 49041,
+      "loop": false
+    },
+    "sound_man_ting": {
+      "start": 49141,
+      "end": 49664,
+      "loop": false
+    },
+    "sound_man_win": {
+      "start": 49764,
+      "end": 50965,
+      "loop": false
+    }
+  }
+}

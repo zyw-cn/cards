@@ -1,0 +1,212 @@
+{
+  "resources": [
+    "hzmj_female.mp3"
+  ],
+  "spritemap": {
+    "sound_woman_1": {
+      "start": 0,
+      "end": 1228,
+      "loop": false
+    },
+    "sound_woman_2": {
+      "start": 1328,
+      "end": 2556,
+      "loop": false
+    },
+    "sound_woman_3": {
+      "start": 2656,
+      "end": 4040,
+      "loop": false
+    },
+    "sound_woman_4": {
+      "start": 4140,
+      "end": 5289,
+      "loop": false
+    },
+    "sound_woman_5": {
+      "start": 5389,
+      "end": 6748,
+      "loop": false
+    },
+    "sound_woman_6": {
+      "start": 6848,
+      "end": 8102,
+      "loop": false
+    },
+    "sound_woman_7": {
+      "start": 8202,
+      "end": 9456,
+      "loop": false
+    },
+    "sound_woman_8": {
+      "start": 9556,
+      "end": 10757,
+      "loop": false
+    },
+    "sound_woman_9": {
+      "start": 10857,
+      "end": 12163,
+      "loop": false
+    },
+    "sound_woman_31": {
+      "start": 12263,
+      "end": 13596,
+      "loop": false
+    },
+    "sound_woman_32": {
+      "start": 13696,
+      "end": 14819,
+      "loop": false
+    },
+    "sound_woman_33": {
+      "start": 14919,
+      "end": 16225,
+      "loop": false
+    },
+    "sound_woman_34": {
+      "start": 16325,
+      "end": 17657,
+      "loop": false
+    },
+    "sound_woman_35": {
+      "start": 17757,
+      "end": 19063,
+      "loop": false
+    },
+    "sound_woman_36": {
+      "start": 19163,
+      "end": 20417,
+      "loop": false
+    },
+    "sound_woman_37": {
+      "start": 20517,
+      "end": 21823,
+      "loop": false
+    },
+    "sound_woman_38": {
+      "start": 21923,
+      "end": 23177,
+      "loop": false
+    },
+    "sound_woman_39": {
+      "start": 23277,
+      "end": 24636,
+      "loop": false
+    },
+    "sound_woman_51": {
+      "start": 24736,
+      "end": 25963,
+      "loop": false
+    },
+    "sound_woman_52": {
+      "start": 26063,
+      "end": 27317,
+      "loop": false
+    },
+    "sound_woman_53": {
+      "start": 27417,
+      "end": 28749,
+      "loop": false
+    },
+    "sound_woman_54": {
+      "start": 28849,
+      "end": 30234,
+      "loop": false
+    },
+    "sound_woman_55": {
+      "start": 30334,
+      "end": 31797,
+      "loop": false
+    },
+    "sound_woman_56": {
+      "start": 31897,
+      "end": 33360,
+      "loop": false
+    },
+    "sound_woman_57": {
+      "start": 33460,
+      "end": 35027,
+      "loop": false
+    },
+    "sound_woman_58": {
+      "start": 35127,
+      "end": 36459,
+      "loop": false
+    },
+    "sound_woman_59": {
+      "start": 36559,
+      "end": 37996,
+      "loop": false
+    },
+    "sound_woman_71": {
+      "start": 38096,
+      "end": 39271,
+      "loop": false
+    },
+    "sound_woman_72": {
+      "start": 39371,
+      "end": 40625,
+      "loop": false
+    },
+    "sound_woman_73": {
+      "start": 40725,
+      "end": 41901,
+      "loop": false
+    },
+    "sound_woman_74": {
+      "start": 42001,
+      "end": 43176,
+      "loop": false
+    },
+    "sound_woman_75": {
+      "start": 43276,
+      "end": 44530,
+      "loop": false
+    },
+    "sound_woman_76": {
+      "start": 44630,
+      "end": 45962,
+      "loop": false
+    },
+    "sound_woman_77": {
+      "start": 46062,
+      "end": 47342,
+      "loop": false
+    },
+    "sound_woman_buhua": {
+      "start": 47442,
+      "end": 48513,
+      "loop": false
+    },
+    "sound_woman_chow": {
+      "start": 48613,
+      "end": 50076,
+      "loop": false
+    },
+    "sound_woman_draw_win": {
+      "start": 50176,
+      "end": 51726,
+      "loop": false
+    },
+    "sound_woman_kong": {
+      "start": 51826,
+      "end": 53158,
+      "loop": false
+    },
+    "sound_woman_pong": {
+      "start": 53258,
+      "end": 54799,
+      "loop": false
+    },
+    "sound_woman_ting": {
+      "start": 54899,
+      "end": 55578,
+      "loop": false
+    },
+    "sound_woman_win": {
+      "start": 55678,
+      "end": 57324,
+      "loop": false
+    }
+  }
+}

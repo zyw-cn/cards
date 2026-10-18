@@ -1,0 +1,24 @@
+---
+description: 从旧项目 game 迁移时禁止照搬 Vant/Axios/Pinia/Router
+alwaysApply: true
+---
+
+# 旧项目 game → cards 重构
+
+引用、粘贴或提及 `D:\zyw-cn\qipai\game` 的代码时，回答开头先写：
+
+**检测到旧项目【game】资产，正在为您执行轻量化架构重构...**
+
+禁止把旧依赖带进本仓库。转换对照：
+
+| 旧 (game) | 新 (cards) |
+|---|---|
+| `van-button` / `van-popup` / `van-field` / `van-overlay` | 原生 HTML + Tailwind |
+| `axios.get/post` | `import { http } from '@/services/http'` |
+| `useUserStore()` / Pinia / `storeToRefs` | `import { gameState } from '@/services/gameState'` |
+| `router.push` / `replace` | `gameState.currentScreen = 'LOGIN' \| 'LOBBY' \| 'CREATE_ROOM' \| 'GAME_TABLE' \| 'SETTLE'` |
+| `@game/...` 或 `game/src/...` | 新项目 `@/`（即 `src/`） |
+
+输出必须是可落地的完整 TS / Vue 3 `<script setup>`，不要伪代码。
+
+**素材**：禁止从旧项目复制图片/音效/atlas；由项目方提供到 `public/assets/` 或 CDN。只保留路径清单与加载代码。

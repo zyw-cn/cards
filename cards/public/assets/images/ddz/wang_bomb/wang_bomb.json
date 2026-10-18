@@ -1,0 +1,303 @@
+{
+  "frames": {
+    "wang_bomb/bomb_1_2.png": {
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "w": 167,
+        "h": 195
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 6,
+        "y": 2,
+        "w": 167,
+        "h": 195
+      },
+      "sourceSize": {
+        "w": 180,
+        "h": 200
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "wang_bomb/bomb_1_0.png": {
+      "frame": {
+        "x": 0,
+        "y": 195,
+        "w": 180,
+        "h": 190
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 5,
+        "w": 180,
+        "h": 190
+      },
+      "sourceSize": {
+        "w": 180,
+        "h": 200
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "wang_bomb/bomb_1_1.png": {
+      "frame": {
+        "x": 167,
+        "y": 0,
+        "w": 156,
+        "h": 190
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 12,
+        "y": 5,
+        "w": 156,
+        "h": 190
+      },
+      "sourceSize": {
+        "w": 180,
+        "h": 200
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "wang_bomb/bomb_0_8.png": {
+      "frame": {
+        "x": 0,
+        "y": 385,
+        "w": 165,
+        "h": 157
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 15,
+        "y": 40,
+        "w": 165,
+        "h": 157
+      },
+      "sourceSize": {
+        "w": 180,
+        "h": 200
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "wang_bomb/bomb_0_5.png": {
+      "frame": {
+        "x": 0,
+        "y": 542,
+        "w": 81,
+        "h": 121
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 48,
+        "y": 53,
+        "w": 81,
+        "h": 121
+      },
+      "sourceSize": {
+        "w": 180,
+        "h": 200
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "wang_bomb/bomb_0_1.png": {
+      "frame": {
+        "x": 0,
+        "y": 663,
+        "w": 118,
+        "h": 117
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 47,
+        "y": 51,
+        "w": 118,
+        "h": 117
+      },
+      "sourceSize": {
+        "w": 180,
+        "h": 200
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "wang_bomb/bomb_0_9.png": {
+      "frame": {
+        "x": 81,
+        "y": 542,
+        "w": 180,
+        "h": 116
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 79,
+        "w": 180,
+        "h": 116
+      },
+      "sourceSize": {
+        "w": 180,
+        "h": 200
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "wang_bomb/bomb_0_6.png": {
+      "frame": {
+        "x": 165,
+        "y": 385,
+        "w": 117,
+        "h": 116
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 30,
+        "y": 55,
+        "w": 117,
+        "h": 116
+      },
+      "sourceSize": {
+        "w": 180,
+        "h": 200
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "wang_bomb/bomb_0_2.png": {
+      "frame": {
+        "x": 261,
+        "y": 190,
+        "w": 116,
+        "h": 108
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 46,
+        "y": 60,
+        "w": 116,
+        "h": 108
+      },
+      "sourceSize": {
+        "w": 180,
+        "h": 200
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "wang_bomb/bomb_0_7.png": {
+      "frame": {
+        "x": 323,
+        "y": 0,
+        "w": 110,
+        "h": 104
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 25,
+        "y": 64,
+        "w": 110,
+        "h": 104
+      },
+      "sourceSize": {
+        "w": 180,
+        "h": 200
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "wang_bomb/bomb_0_4.png": {
+      "frame": {
+        "x": 0,
+        "y": 780,
+        "w": 105,
+        "h": 95
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 46,
+        "y": 73,
+        "w": 105,
+        "h": 95
+      },
+      "sourceSize": {
+        "w": 180,
+        "h": 200
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "wang_bomb/bomb_0_3.png": {
+      "frame": {
+        "x": 0,
+        "y": 875,
+        "w": 122,
+        "h": 94
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 46,
+        "y": 73,
+        "w": 122,
+        "h": 94
+      },
+      "sourceSize": {
+        "w": 180,
+        "h": 200
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    }
+  },
+  "meta": {
+    "app": "http://free-tex-packer.com",
+    "version": "0.6.7",
+    "image": "wang_bomb.png",
+    "format": "RGBA8888",
+    "size": {
+      "w": 433,
+      "h": 969
+    },
+    "scale": 1
+  }
+}

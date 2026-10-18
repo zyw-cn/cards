@@ -1,0 +1,135 @@
+{
+  "frames": {
+    "plane/plane_5.png": {
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "w": 292,
+        "h": 70
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 4,
+        "y": 5,
+        "w": 292,
+        "h": 70
+      },
+      "sourceSize": {
+        "w": 300,
+        "h": 75
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "plane/plane_1.png": {
+      "frame": {
+        "x": 292,
+        "y": 0,
+        "w": 292,
+        "h": 69
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 4,
+        "y": 5,
+        "w": 292,
+        "h": 69
+      },
+      "sourceSize": {
+        "w": 300,
+        "h": 75
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "plane/plane_2.png": {
+      "frame": {
+        "x": 584,
+        "y": 0,
+        "w": 292,
+        "h": 69
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 4,
+        "y": 5,
+        "w": 292,
+        "h": 69
+      },
+      "sourceSize": {
+        "w": 300,
+        "h": 75
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "plane/plane_4.png": {
+      "frame": {
+        "x": 876,
+        "y": 0,
+        "w": 271,
+        "h": 70
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 4,
+        "y": 5,
+        "w": 271,
+        "h": 70
+      },
+      "sourceSize": {
+        "w": 300,
+        "h": 75
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "plane/plane_3.png": {
+      "frame": {
+        "x": 292,
+        "y": 69,
+        "w": 208,
+        "h": 70
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 4,
+        "y": 5,
+        "w": 208,
+        "h": 70
+      },
+      "sourceSize": {
+        "w": 300,
+        "h": 75
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    }
+  },
+  "meta": {
+    "app": "http://free-tex-packer.com",
+    "version": "0.6.7",
+    "image": "plane.png",
+    "format": "RGBA8888",
+    "size": {
+      "w": 1147,
+      "h": 139
+    },
+    "scale": 1
+  }
+}

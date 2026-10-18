@@ -1,0 +1,102 @@
+{
+  "resources": [
+    "ddz_sfx_audio_sprite.mp3"
+  ],
+  "spritemap": {
+    "bgm": {
+      "start": 0,
+      "end": 30487,
+      "loop": false
+    },
+    "bomb": {
+      "start": 30587,
+      "end": 31164,
+      "loop": false
+    },
+    "callMaster": {
+      "start": 31264,
+      "end": 32383,
+      "loop": false
+    },
+    "clock": {
+      "start": 32483,
+      "end": 32640,
+      "loop": false
+    },
+    "deal": {
+      "start": 32740,
+      "end": 33055,
+      "loop": false
+    },
+    "deal2": {
+      "start": 33155,
+      "end": 33469,
+      "loop": false
+    },
+    "grab": {
+      "start": 33569,
+      "end": 34879,
+      "loop": false
+    },
+    "joker": {
+      "start": 34979,
+      "end": 35872,
+      "loop": false
+    },
+    "lose": {
+      "start": 35972,
+      "end": 41772,
+      "loop": false
+    },
+    "out": {
+      "start": 41872,
+      "end": 44171,
+      "loop": false
+    },
+    "pair": {
+      "start": 44271,
+      "end": 45567,
+      "loop": false
+    },
+    "pass": {
+      "start": 45667,
+      "end": 46418,
+      "loop": false
+    },
+    "past": {
+      "start": 46518,
+      "end": 47225,
+      "loop": false
+    },
+    "plane": {
+      "start": 47325,
+      "end": 48033,
+      "loop": false
+    },
+    "start": {
+      "start": 48133,
+      "end": 49648,
+      "loop": false
+    },
+    "startA": {
+      "start": 49748,
+      "end": 51648,
+      "loop": false
+    },
+    "trioPair": {
+      "start": 51748,
+      "end": 52772,
+      "loop": false
+    },
+    "warn": {
+      "start": 52872,
+      "end": 53634,
+      "loop": false
+    },
+    "win": {
+      "start": 53734,
+      "end": 59063,
+      "loop": false
+    }
+  }
+}

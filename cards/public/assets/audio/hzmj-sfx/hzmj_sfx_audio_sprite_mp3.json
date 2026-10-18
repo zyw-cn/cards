@@ -1,0 +1,67 @@
+{
+  "resources": [
+    "hzmj_sfx_audio_sprite.mp3"
+  ],
+  "spritemap": {
+    "bgm": {
+      "start": 0,
+      "end": 63660,
+      "loop": false
+    },
+    "buhua": {
+      "start": 63760,
+      "end": 64675,
+      "loop": false
+    },
+    "chow": {
+      "start": 64775,
+      "end": 65820,
+      "loop": false
+    },
+    "deal": {
+      "start": 65920,
+      "end": 66808,
+      "loop": false
+    },
+    "draw_win": {
+      "start": 66908,
+      "end": 67845,
+      "loop": false
+    },
+    "kong": {
+      "start": 67945,
+      "end": 68964,
+      "loop": false
+    },
+    "pong": {
+      "start": 69064,
+      "end": 69952,
+      "loop": false
+    },
+    "saizi": {
+      "start": 70052,
+      "end": 70968,
+      "loop": false
+    },
+    "select": {
+      "start": 71068,
+      "end": 72008,
+      "loop": false
+    },
+    "tileout": {
+      "start": 72108,
+      "end": 73310,
+      "loop": false
+    },
+    "ting": {
+      "start": 73410,
+      "end": 73932,
+      "loop": false
+    },
+    "win": {
+      "start": 74032,
+      "end": 75234,
+      "loop": false
+    }
+  }
+}

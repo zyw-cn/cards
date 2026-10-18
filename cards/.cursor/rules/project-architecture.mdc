@@ -1,0 +1,20 @@
+---
+description: 棋牌 App 架构与禁止依赖
+alwaysApply: true
+---
+
+# 项目架构
+
+- 纯横屏跨平台手游，布局基准 **1334×750**。
+- 禁止引入 `vue-router`、`pinia`、`axios` 及任何第三方 UI 库（如 Vant）。
+- 状态与中枢数据一律使用并续写 `src/services/gameState.ts` 中的 Vue 3 `reactive` 全局对象，不要另起 store。
+
+```ts
+// ❌ BAD
+import { defineStore } from 'pinia'
+import axios from 'axios'
+
+// ✅ GOOD
+import { gameState } from '@/services/gameState'
+gameState.cdnUrl // 远程资源根地址
+```

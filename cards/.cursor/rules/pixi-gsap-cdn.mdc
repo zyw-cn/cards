@@ -1,0 +1,21 @@
+---
+description: Pixi 牌桌、CDN 资源与 GSAP 动画
+globs: "**/*.{ts,js}"
+alwaysApply: false
+---
+
+# Pixi / CDN / GSAP
+
+- 牌桌内部（扑克、麻将、筹码、绿桌布、发牌）只在 **Pixi.js** 场景中实现，不要用 Vue DOM 画牌桌。
+- 美术（Spritesheet JSON）和音效（MP3）在云端 CDN，地址必须用 `gameState.cdnUrl` 拼接后异步加载。
+- 飞牌、筹码、物理轨迹等动画一律用 **GSAP**；禁止手写 Ticker 计时或 Pixi 自带简单补间。
+
+```ts
+// ❌ BAD
+sprite.x += speed
+app.ticker.add(() => { /* 自己算轨迹 */ })
+
+// ✅ GOOD
+const url = `${gameState.cdnUrl}/sheets/cards.json`
+gsap.to(chip, { x: targetX, y: targetY, duration: 0.4, ease: 'power2.out' })
+```

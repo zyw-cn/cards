@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/png" href="./artres/icon1.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover, interactive-widget=overlays-content" />
+    <meta name="screen-orientation" content="landscape" />
+    <meta name="x5-orientation" content="landscape" />
+    <title>贝密游戏</title>
+    <script type="module" crossorigin src="./assets/index-nQ1WAF36.js"></script>
+    <link rel="modulepreload" crossorigin href="./assets/CanvasPool-CdpxiL_8.js">
+    <link rel="modulepreload" crossorigin href="./assets/gameState-DQilFKVF.js">
+    <link rel="modulepreload" crossorigin href="./assets/Filter-3CUtaXed.js">
+    <link rel="modulepreload" crossorigin href="./assets/canvasUtils-Bw_OEwXd.js">
+    <link rel="modulepreload" crossorigin href="./assets/Cache-B-Py5JMU.js">
+    <link rel="modulepreload" crossorigin href="./assets/init-jbfmLtFf.js">
+    <link rel="modulepreload" crossorigin href="./assets/getTextureBatchBindGroup-DPo_HrKb.js">
+    <link rel="modulepreload" crossorigin href="./assets/GCManagedHash-De6JRbHU.js">
+    <link rel="modulepreload" crossorigin href="./assets/GraphicsContext-CdR5AKgn.js">
+    <link rel="modulepreload" crossorigin href="./assets/gameSocket-UV9Zu89P.js">
+    <link rel="modulepreload" crossorigin href="./assets/AppDialog-CQTEl0oW.js">
+    <link rel="stylesheet" crossorigin href="./assets/index-DTT54z8M.css">
+  </head>
+  <body>
+    <div id="app"></div>
+    <script>
+      /* 调试基座会缓存旧的 index.html / js。版本变了就清一次缓存再重启。 */
+      (function () {
+        var BUILD = 'no-mark-1'
+        try {
+          if (location.protocol !== 'file:') return
+          if (localStorage.getItem('qipai_ui_build') === BUILD) return
+          localStorage.setItem('qipai_ui_build', BUILD)
+        } catch (e) {
+          return
+        }
+        function wipe() {
+          try {
+            plus.cache.clear(function () {
+              plus.runtime.restart()
+            })
+          } catch (e) {}
+        }
+        if (window.plus) wipe()
+        else document.addEventListener('plusready', wipe)
+      })()
+    </script>
+  </body>
+</html>

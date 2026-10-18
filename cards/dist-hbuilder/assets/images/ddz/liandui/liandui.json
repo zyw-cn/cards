@@ -1,0 +1,39 @@
+{
+  "frames": {
+    "liandui/liandui.png": {
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "w": 250,
+        "h": 146
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 4,
+        "w": 250,
+        "h": 146
+      },
+      "sourceSize": {
+        "w": 250,
+        "h": 150
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    }
+  },
+  "meta": {
+    "app": "http://free-tex-packer.com",
+    "version": "0.6.7",
+    "image": "liandui.png",
+    "format": "RGBA8888",
+    "size": {
+      "w": 250,
+      "h": 146
+    },
+    "scale": 1
+  }
+}

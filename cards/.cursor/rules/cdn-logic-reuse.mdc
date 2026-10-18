@@ -1,0 +1,25 @@
+---
+description: 旧项目逻辑可复用，音频与纹理必须走 CDN / Pixi v8 / GSAP
+alwaysApply: true
+---
+
+# 可复用逻辑与资产加载
+
+- 牌型校验、胡牌、洗牌、倒计时等纯算法：保留语义，改成 TypeScript 强类型。
+- 飞牌、筹码轨迹：继续用 `gsap.to` / `timeline`，目标必须是 Pixi v8 `DisplayObject`。
+
+音频：
+
+```ts
+// ❌ playAudio('win.mp3') 本地路径
+// ✅
+import { audioManager } from '@/services/audioManager'
+audioManager.playEffect('win')
+```
+
+纹理：禁止 `Texture.from('assets/cards/king.png')` 本地单图。用 `gameState.cdnUrl` 拼远程地址，Pixi v8：
+
+```ts
+import { Assets } from 'pixi.js'
+const texture = Assets.get('king')
+```

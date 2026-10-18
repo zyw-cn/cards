@@ -1,0 +1,271 @@
+{
+	"textures": [
+		{
+			"image": "bomb",
+			"format": "RGBA8888",
+			"size": {
+				"w": 575,
+				"h": 501
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "zhadan/bomb_2_1.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 180,
+						"h": 200
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 5,
+						"w": 180,
+						"h": 190
+					},
+					"frame": {
+						"x": 0,
+						"y": 0,
+						"w": 180,
+						"h": 190
+					}
+				},
+				{
+					"filename": "zhadan/bomb_2_3.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 180,
+						"h": 200
+					},
+					"spriteSourceSize": {
+						"x": 6,
+						"y": 2,
+						"w": 167,
+						"h": 195
+					},
+					"frame": {
+						"x": 180,
+						"y": 0,
+						"w": 167,
+						"h": 195
+					}
+				},
+				{
+					"filename": "zhadan/bomb_2_2.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 180,
+						"h": 200
+					},
+					"spriteSourceSize": {
+						"x": 12,
+						"y": 5,
+						"w": 156,
+						"h": 190
+					},
+					"frame": {
+						"x": 0,
+						"y": 190,
+						"w": 156,
+						"h": 190
+					}
+				},
+				{
+					"filename": "zhadan/bomb_1_8.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 180,
+						"h": 200
+					},
+					"spriteSourceSize": {
+						"x": 15,
+						"y": 40,
+						"w": 165,
+						"h": 157
+					},
+					"frame": {
+						"x": 156,
+						"y": 195,
+						"w": 165,
+						"h": 157
+					}
+				},
+				{
+					"filename": "zhadan/bomb_1_9.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 180,
+						"h": 200
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 79,
+						"w": 180,
+						"h": 116
+					},
+					"frame": {
+						"x": 156,
+						"y": 352,
+						"w": 180,
+						"h": 116
+					}
+				},
+				{
+					"filename": "zhadan/bomb_1_5.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 180,
+						"h": 200
+					},
+					"spriteSourceSize": {
+						"x": 48,
+						"y": 53,
+						"w": 81,
+						"h": 121
+					},
+					"frame": {
+						"x": 0,
+						"y": 380,
+						"w": 81,
+						"h": 121
+					}
+				},
+				{
+					"filename": "zhadan/bomb_1_3.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 180,
+						"h": 200
+					},
+					"spriteSourceSize": {
+						"x": 46,
+						"y": 73,
+						"w": 122,
+						"h": 94
+					},
+					"frame": {
+						"x": 321,
+						"y": 195,
+						"w": 122,
+						"h": 94
+					}
+				},
+				{
+					"filename": "zhadan/bomb_1_1.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 180,
+						"h": 200
+					},
+					"spriteSourceSize": {
+						"x": 47,
+						"y": 51,
+						"w": 118,
+						"h": 117
+					},
+					"frame": {
+						"x": 347,
+						"y": 0,
+						"w": 118,
+						"h": 117
+					}
+				},
+				{
+					"filename": "zhadan/bomb_1_6.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 180,
+						"h": 200
+					},
+					"spriteSourceSize": {
+						"x": 30,
+						"y": 55,
+						"w": 117,
+						"h": 116
+					},
+					"frame": {
+						"x": 336,
+						"y": 289,
+						"w": 117,
+						"h": 116
+					}
+				},
+				{
+					"filename": "zhadan/bomb_1_2.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 180,
+						"h": 200
+					},
+					"spriteSourceSize": {
+						"x": 46,
+						"y": 60,
+						"w": 116,
+						"h": 108
+					},
+					"frame": {
+						"x": 443,
+						"y": 117,
+						"w": 116,
+						"h": 108
+					}
+				},
+				{
+					"filename": "zhadan/bomb_1_7.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 180,
+						"h": 200
+					},
+					"spriteSourceSize": {
+						"x": 25,
+						"y": 64,
+						"w": 110,
+						"h": 104
+					},
+					"frame": {
+						"x": 465,
+						"y": 0,
+						"w": 110,
+						"h": 104
+					}
+				},
+				{
+					"filename": "zhadan/bomb_1_4.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 180,
+						"h": 200
+					},
+					"spriteSourceSize": {
+						"x": 46,
+						"y": 73,
+						"w": 105,
+						"h": 95
+					},
+					"frame": {
+						"x": 336,
+						"y": 405,
+						"w": 105,
+						"h": 95
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "http://free-tex-packer.com",
+		"version": "0.6.7"
+	}
+}

@@ -1,0 +1,23 @@
+---
+description: 大厅、弹窗、表单的 Vue 3 + Tailwind 规范
+globs: "**/*.{vue,css}"
+alwaysApply: false
+---
+
+# 外围 UI
+
+- 大厅、弹窗、表单只用 **Vue 3 + Tailwind CSS**。
+- 禁止手写复杂 CSS；用原子类（`flex`、`grid`、`w-full`、`aspect-video` 等）。
+- 输入框、复选框用 **HTML5 原生标签** + Tailwind，保证 WebView 兼容。
+
+```vue
+<!-- ❌ BAD：自定义组件库 / 复杂 scoped CSS -->
+<van-field v-model="name" />
+
+<!-- ✅ GOOD -->
+<input type="text" class="w-full rounded px-3 py-2 bg-white/90 text-black" />
+<label class="flex items-center gap-2">
+  <input type="checkbox" class="h-4 w-4" />
+  <span>记住账号</span>
+</label>
+```

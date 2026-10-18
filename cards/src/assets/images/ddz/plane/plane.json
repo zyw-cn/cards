@@ -1,0 +1,124 @@
+{
+	"textures": [
+		{
+			"image": "plane",
+			"format": "RGBA8888",
+			"size": {
+				"w": 563,
+				"h": 209
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "feiji/plane_5.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 300,
+						"h": 75
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 5,
+						"w": 292,
+						"h": 70
+					},
+					"frame": {
+						"x": 0,
+						"y": 0,
+						"w": 292,
+						"h": 70
+					}
+				},
+				{
+					"filename": "feiji/plane_4.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 300,
+						"h": 75
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 5,
+						"w": 271,
+						"h": 70
+					},
+					"frame": {
+						"x": 0,
+						"y": 70,
+						"w": 271,
+						"h": 70
+					}
+				},
+				{
+					"filename": "feiji/plane_1.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 300,
+						"h": 75
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 5,
+						"w": 292,
+						"h": 69
+					},
+					"frame": {
+						"x": 0,
+						"y": 140,
+						"w": 292,
+						"h": 69
+					}
+				},
+				{
+					"filename": "feiji/plane_2.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 300,
+						"h": 75
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 5,
+						"w": 292,
+						"h": 69
+					},
+					"frame": {
+						"x": 271,
+						"y": 70,
+						"w": 292,
+						"h": 69
+					}
+				},
+				{
+					"filename": "feiji/plane_3.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 300,
+						"h": 75
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 5,
+						"w": 208,
+						"h": 70
+					},
+					"frame": {
+						"x": 292,
+						"y": 0,
+						"w": 208,
+						"h": 70
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "http://free-tex-packer.com",
+		"version": "0.6.7"
+	}
+}
